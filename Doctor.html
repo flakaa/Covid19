@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Covid19-RKS</title>
+    <link rel="icon" href="img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- nice select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-center"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Faqja Kryesore</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Covid-19</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Doctor.html">Statistikat</a>
+                                </li>
+
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lajme
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                        <a class="dropdown-item" href="blog.html">Lajme</a>
+                                       
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Rreth Nesh</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="btn_2 d-none d-lg-block" href="#">038-200-80-800</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb_part breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner">
+                        <div class="breadcrumb_iner_item" id="box4">
+                            <h2>Statistikat</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+    <!--::doctor_part start::-->
+        <div class="klasa1">
+          <h1>Grafet dhe Statistikat - Kosovë</h1>
+        </div>
+
+        <br>
+
+        <div class="klasa2">
+            <p> Kosova aktualisht është vendi i 100-të me shumicën e personave të infektuar, me afro 0.02% të totalit të rasteve të konfirmuara në të gjithë botën. Rastet e para të pandemisë koronavirus në Kosovë u konfirmuan më 13 Mars 2020 në Viti. Që nga sot, 23 Prill 2020, ka 458 raste aktive nga 630 raste të konfirmuara gjithsej, me 18 vdekje totale dhe 128 shërime. Në përqindje, 75.83% janë aktivë, 2.98% është numri i të vdekurve ndërsa 21.19% janë rikuperuar.</p>
+            </div>
+
+            <br>            
+
+  
+  
+  <div chart>
+      
+      <script>
+
+window.onload = function () {
+var chart1 = new CanvasJS.Chart("chartContainer1", {
+    animationEnabled: true,
+    theme: "light2", // "light1", "light2", "dark1", "dark2"
+    title:{
+        text: "Qytetet e infektuara"
+    },
+    axisY: {
+        title: "Covid-19"
+    },
+    data: [{        
+        type: "column",  
+        showInLegend: true, 
+        legendMarkerColor: "grey",
+        legendText: "Covid-19 = 630 te infektuar",
+        dataPoints: [      
+            { y: 93,  label: "Ferizaji"  },
+            { y: 70,  label: "Malisheva" },
+            { y: 65,  label: "Prishtina" },
+            { y: 49,  label: "Vitia" },
+            { y: 37,  label: "Prizren" },
+            { y: 33,  label: "Mitrovica e Veriut" },
+            { y: 33,  label: "Suhareka" },
+            { y: 29,  label: "Gjilani" },
+            { y: 37,  label: "Kamenice" },
+            { y: 24,  label: "Vushtrri" },
+            { y: 20,  label: "Zvecan" },
+            { y: 21,  label: "Peje" },
+            { y: 16,  label: "Gjakove" },
+            { y: 15,  label: "Lipjan" },
+            { y: 9,   label: "Podujeve" },
+            { y: 9,   label: "Leposavic" },
+            { y: 7,   label: "FusheKosove" },
+            { y: 7,   label: "Hani i Elezit" },
+            { y: 5,   label: "Kline" },
+            { y: 5,   label: "Skenderaji" },
+            { y: 2,   label: "Drenas" },
+            { y: 4,   label: "Istog" },
+            { y: 1,   label: "Decan" },
+            { y: 1,   label: "Rahovec" }
+        ]
+    }]
+});
+
+
+
+
+
+var chart2 = new CanvasJS.Chart("chartContainer2", {
+    theme: "light1", // "light2", "dark1", "dark2"
+    animationEnabled: false, // change to true      
+    title:{
+        text: "Numri i të infektuarve në baza ditore"
+    },
+    data: [
+    {
+        // Change type to "bar", "area", "spline", "pie",etc.
+        type: "column",
+        dataPoints: [
+            { label: "13 Mars",  y: 2  },
+            { label: "14 Mars",  y: 3  },
+            { label: "15 Mars",  y: 4  },
+            { label: "16 Mars",  y: 6  },
+            { label: "17 Mars",  y: 4  },
+            { label: "18 Mars",  y: 1  },
+            { label: "19 Mars",  y: 1  },
+            { label: "20 Mars",  y: 3  },
+            { label: "21 Mars",  y: 7  },
+            { label: "22 Mars",  y: 2  },
+            { label: "23 Mars",  y: 28 },
+            { label: "24 Mars",  y: 2  },
+            { label: "25 Mars",  y: 8  },
+            { label: "26 Mars",  y: 15 },
+            { label: "27 Mars",  y: 2  },
+            { label: "28 Mars",  y: 3  },
+            { label: "29 Mars",  y: 3  },
+            { label: "30 Mars",  y: 12 },
+            { label: "31 Mars",  y: 6  },
+            { label: "01 Prill", y: 13 },
+            { label: "02 Prill", y: 1  },
+            { label: "03 Prill", y: 9  },
+            { label: "04 Prill", y: 5  },
+            { label: "06 Prill", y: 25 },
+            { label: "07 Prill", y: 19 },
+            { label: "08 Prill", y: 40 },
+            { label: "09 Prill", y: 3  },
+            { label: "10 Prill", y: 23 },
+            { label: "11 Prill", y: 33 },
+            { label: "12 Prill", y: 79 },
+            { label: "13 Prill", y: 15 },
+            { label: "14 Prill", y: 10 },
+            { label: "15 Prill", y: 13 },
+            { label: "16 Prill", y: 26 },
+            { label: "17 Prill", y: 31 },
+            { label: "18 Prill", y: 30 },
+            { label: "19 Prill", y: 51 },
+            { label: "20 Prill", y: 37 },
+            { label: "21 Prill", y: 6  },
+            { label: "23 Prill", y: 26 }
+       
+        ]
+    }
+    ]
+});
+
+var chart3 = new CanvasJS.Chart("chartContainer3", {
+    theme: "light1", // "light2", "dark1", "dark2"
+    animationEnabled: false, // change to true      
+    title:{
+        text: "Numri i të vdekurve në baza ditore"
+    },
+    data: [
+    {
+        // Change type to "bar", "area", "spline", "pie",etc.
+        type: "column",
+        dataPoints: [
+            { label: "13 Mars",  y: 0  },
+            { label: "14 Mars",  y: 0  },
+            { label: "15 Mars",  y: 0  },
+            { label: "16 Mars",  y: 0  },
+            { label: "17 Mars",  y: 0  },
+            { label: "18 Mars",  y: 0  },
+            { label: "19 Mars",  y: 0  },
+            { label: "20 Mars",  y: 0  },
+            { label: "21 Mars",  y: 0  },
+            { label: "22 Mars",  y: 1  },
+            { label: "23 Mars",  y: 0  },
+            { label: "24 Mars",  y: 0  },
+            { label: "25 Mars",  y: 0  },
+            { label: "26 Mars",  y: 0  },
+            { label: "27 Mars",  y: 0  },
+            { label: "28 Mars",  y: 0  },
+            { label: "29 Mars",  y: 0  },
+            { label: "30 Mars",  y: 0  },
+            { label: "31 Mars",  y: 0  },
+            { label: "01 Prill", y: 0  },
+            { label: "02 Prill", y: 0  },
+            { label: "03 Prill", y: 0  },
+            { label: "04 Prill", y: 0  },
+            { label: "06 Prill", y: 2  },
+            { label: "07 Prill", y: 2  },
+            { label: "08 Prill", y: 1  },
+            { label: "09 Prill", y: 1  },
+            { label: "10 Prill", y: 0  },
+            { label: "11 Prill", y: 0  },
+            { label: "12 Prill", y: 0  },
+            { label: "13 Prill", y: 1  },
+            { label: "14 Prill", y: 0  },
+            { label: "15 Prill", y: 1  },
+            { label: "16 Prill", y: 2  },
+            { label: "17 Prill", y: 1  },
+            { label: "18 Prill", y: 0  },
+            { label: "19 Prill", y: 0  },
+            { label: "20 Prill", y: 0  },
+            { label: "21 Prill", y: 6  },
+            { label: "22 Prill", y: 0  },
+            { label: "23 Prill", y: 0  }
+       
+        ]
+    }
+    ]
+});
+
+chart3.render();
+chart2.render();
+chart1.render();
+
+}
+</script>
+</div>
+
+<body>
+<div id="chartContainer1" style="height: 300px; width: 80%;margin-left: 100px;"></div>
+<br>
+<br>
+<br>
+<br>
+<div id="chartContainer2" style="height: 300px; width: 40%;float: left; margin-right: 50px; margin-left: 100px;"></div>
+<div id="chartContainer3" style="height: 300px; width: 40%; "></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+
+<br>
+
+
+
+
+<!--::doctor_part end::-->
+
+
+
+
+    <!--::regervation_part start::-->
+                    <div class="col-lg-5 col-md-6">
+                    <div class="reservation_img">
+                    <img src="img/reservation.png" alt="" class="reservation_img_iner">
+                    </div>
+                </div>
+        
+    <!--::regervation_part end::-->
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="footer section_padding">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
+                        <a href="#" class="footer_logo"> <img src="img/logo.png" alt="#"> </a>
+                        <p>Contact: 
+                            <br>
+                        038-200-80-800
+                        <br>
+                        info@covid19-rks.com</p>
+                        <div class="social_logo">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"> <i class="ti-twitter"></i> </a>
+                            <a href="#"><i class="ti-instagram"></i></a>
+                            <a href="#"><i class="ti-skype"></i></a>
+                        </div>
+                    </div>
+                          <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Faqja Kryesore</a></li>
+              <li><a href="#">Covid-19t</a></li>
+              <li><a href="#">Statistikat</a></li>
+              <li><a href="#">Lajmet</a></li>
+              <li><a href="#">Për Ne</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#">Faqja Kryesore</a></li>
+              <li><a href="#">Covid-19t</a></li>
+              <li><a href="#">Statistikat</a></li>
+              <li><a href="#">Lajmet</a></li>
+              <li><a href="#">Për Ne</a></li>
+              
+            </ul>
+          </div>
+                    
+                                <div class="info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright_part">
+            <div class="container">
+                <div class="row align-items-center">
+                    <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Flaka M</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+                    <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"> <i class="ti-twitter"></i> </a>
+                        <a href="#"><i class="ti-instagram"></i></a>
+                        <a href="#"><i class="ti-skype"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+                    
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
